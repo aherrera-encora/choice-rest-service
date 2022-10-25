@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class ChoiceConfig {
+public class ChoiceBeanConfig {
     @Bean
     public ChoicePort choicePort() {
         return new ChoicePortService().getChoicePortSoap11();

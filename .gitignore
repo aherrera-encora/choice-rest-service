@@ -36,6 +36,3 @@ build/
 
 ### Mac OS ###
 .DS_Store
-
-### Generated SOAP Client ###
-src/main/java/mx/cacho/choice/soapws/client
